@@ -37,7 +37,7 @@ body {
     box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
 }
 
-$heading_color:rgb(140 140 140);
+$heading_color:rgb(255 123 0);
 $primary_color: #0064ab;
 $heading_para_color:rgb(64 58 85);
 $btn_pric_color:#099f7c;
@@ -173,16 +173,16 @@ $add_cart_color:#faa200;
         }
 
         h1 {
-            color:rgba(255, 126, 5, 0.37);
+            color:#fc5a15;
             font-size: 4rem;
             // font-family: "Poppins", sans-serif;
         }
 
         h2 {
-            color: rgb(47 78 126 / 80%);
+            color:rgb(66 81 105);
             font-size: 1.7rem; 
             span{
-                color: #1616168b;
+                color: rgb(212 89 36);
                 font-weight: 700;
             }
         }

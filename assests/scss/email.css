@@ -97,7 +97,7 @@ body {
 }
 
 .title_heading h4 {
-  color: rgb(140, 140, 140);
+  color: rgb(255, 123, 0);
   font-size: 1.5rem;
 }
 .title_heading .box_heading {
@@ -130,15 +130,15 @@ body {
   transition: all 0.2s ease-in;
 }
 .first_section .card_box h1 {
-  color: rgba(255, 126, 5, 0.37);
+  color: #fc5a15;
   font-size: 4rem;
 }
 .first_section .card_box h2 {
-  color: rgba(47, 78, 126, 0.8);
+  color: rgb(66, 81, 105);
   font-size: 1.7rem;
 }
 .first_section .card_box h2 span {
-  color: rgba(22, 22, 22, 0.5450980392);
+  color: rgb(212, 89, 36);
   font-weight: 700;
 }
 
@@ -154,7 +154,7 @@ body {
   text-align: center;
   font-size: 2.3rem;
   font-weight: 600;
-  color: rgb(140, 140, 140);
+  color: rgb(255, 123, 0);
 }
 
 .desc_section_bg {
@@ -164,7 +164,7 @@ body {
   padding: 0.2rem 0rem 0rem 1rem;
 }
 .desc_section_bg .first_section_para h2 {
-  color: rgb(140, 140, 140);
+  color: rgb(255, 123, 0);
   font-weight: 600;
 }
 .desc_section_bg .first_section_para p {
@@ -341,7 +341,7 @@ body {
   text-align: center;
 }
 .offer_section_bg .main_box h2 {
-  color: rgb(140, 140, 140);
+  color: rgb(255, 123, 0);
   font-weight: 600;
   font-size: 2.3rem;
 }
@@ -391,7 +391,7 @@ body {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  color: rgb(140, 140, 140);
+  color: rgb(255, 123, 0);
 }
 .price_end > * {
   margin-top: 1.3rem;
