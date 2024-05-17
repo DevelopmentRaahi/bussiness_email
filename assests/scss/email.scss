@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *,
 *::after,
 *::before {
@@ -12,6 +12,11 @@
 h1, h2,h3,h4,h5,h6{
     // font-family: "Roboto Condensed", sans-serif;
      font-family: "Poppins", sans-serif;
+     color: #333;
+}
+*{
+    font-family: "Barlow Semi Condensed", sans-serif ;
+
 }
 body {
     // font-family: "Montserrat", sans-serif;
@@ -32,7 +37,10 @@ body {
     box-shadow: 0rem 0.2rem 0.2rem #1a1a1a29;
 }
 
+$heading_color:rgb(140 140 140);
 $primary_color: #0064ab;
+$heading_para_color:rgb(37, 21, 91);
+
 
 .background_random {
     //  background-color: rgba(147, 168, 157, 0.597) !important;
@@ -124,7 +132,7 @@ $primary_color: #0064ab;
 }
 .title_heading{
     h4{
-        color: #099f7c;
+        color:$heading_color;
         font-size: 1.5rem;
     }
     .box_heading{
@@ -162,7 +170,7 @@ $primary_color: #0064ab;
         }
 
         h1 {
-            color: rgb(167 129 234 / 54%);
+            color:rgb(190 133 73 / 63%);
             font-size: 4rem;
             font-family: "Poppins", sans-serif;
         }
@@ -181,15 +189,15 @@ $primary_color: #0064ab;
 .price_head{
     padding: 3rem 0rem;
     p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: center;
-        color: $primary_color;
+        color: $heading_para_color;
     }
     h4{
         text-align: center;
         font-size: 2.5rem;
         font-weight: 700;
-        color: rgba(37, 36, 41, 0.686);
+        color:$heading_color;
     }
 }
 
@@ -244,7 +252,7 @@ $des_heading_color:#5b72a0;
     height: 100%;
     
     h2{
-        color: $primary_color;
+        color: $heading_para_color;
         font-size: 2.4rem;
         margin-bottom: 1.2rem;
     }
@@ -277,7 +285,7 @@ $des_heading_color:#5b72a0;
         }
     }
     $btn_pric_color:#099f7c;
-    $add_cart_color:#4e84c6;
+    $add_cart_color:#faa200;
 
     .price_tag{
         font-size: 1.7rem;
@@ -315,13 +323,13 @@ $des_heading_color:#5b72a0;
         @include boxshadow();
         transition:all 0.3s linear;
         transform: translateY(-1rem);
-        border: 1px solid $btn_pric_color;
+        border: 1px solid $add_cart_color;
     }
     .price_specs{
         li{
             
             i{
-                color: $btn_pric_color;
+                color: $add_cart_color;
                 margin-right: 0.7rem;
                 font-weight: 800;               
             }
@@ -440,12 +448,13 @@ $btn_pric_color:#099f7c;
         text-align: center;
         
         h2{
-            color: $btn_pric_color;
+            color: $heading_color;
             font-weight: 700;
             font-size: 2.7rem;
         }
         p{
             text-align: center;
+            color: $heading_para_color;
         }
         & >*{
             margin-top: 2.5rem;
@@ -488,15 +497,16 @@ $btn_pric_color:#099f7c;
 .price_end{
     padding: 3rem 0rem;
     p{
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
-        color: black;
+        color: $heading_para_color !important;
+        padding-bottom: 2rem;
     }
     h4{
         text-align: center;
         font-size: 2.5rem;
         font-weight: 700;
-        color: rgba(24, 9, 85, 0.686);
+        color:$heading_color;
     }
     & >*{
             margin-top: 1.3rem;
