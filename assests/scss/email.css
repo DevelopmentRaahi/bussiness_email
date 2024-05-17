@@ -51,7 +51,7 @@ body {
 }
 .row-design_gap h2 {
   font-size: 3.7rem;
-  color: #403a55;
+  color: #403a55 !important;
   font-weight: 700;
 }
 .row-design_gap h2 span {
@@ -130,12 +130,11 @@ body {
   transition: all 0.2s ease-in;
 }
 .first_section .card_box h1 {
-  color: rgba(190, 133, 73, 0.63);
+  color: rgba(174, 234, 105, 0.63);
   font-size: 4rem;
-  font-family: "Poppins", sans-serif;
 }
 .first_section .card_box h2 {
-  color: #0064ab;
+  color: rgba(48, 32, 101, 0.8196078431);
   font-size: 1.7rem;
 }
 .first_section .card_box h2 span {
@@ -165,7 +164,7 @@ body {
   padding: 0.2rem 0rem 0rem 1rem;
 }
 .desc_section_bg .first_section_para h2 {
-  color: #5b72a0;
+  color: rgb(140, 140, 140);
   font-weight: 600;
 }
 .desc_section_bg .first_section_para p {
@@ -211,7 +210,7 @@ body {
   display: inline-block;
 }
 .price_box .inline_item p:not(:last-child) {
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin-right: 1.1rem;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -225,6 +224,10 @@ body {
   border-radius: 1.2rem;
   text-transform: uppercase;
 }
+.price_box .inline_item p .color_price {
+  color: #0064ab;
+  font-weight: 600;
+}
 .price_box .price_tag {
   font-size: 1.7rem;
 }
@@ -236,7 +239,7 @@ body {
 .price_box .main_button a {
   text-decoration: none;
   background-color: #faa200;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   display: block;
   padding: 0.8rem 0rem;
   font-size: 1.2rem;

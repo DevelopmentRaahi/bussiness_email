@@ -40,6 +40,8 @@ body {
 $heading_color:rgb(140 140 140);
 $primary_color: #0064ab;
 $heading_para_color:rgb(64 58 85);
+$btn_pric_color:#099f7c;
+    $add_cart_color:#faa200;
 
 
 .background_random {
@@ -63,6 +65,7 @@ $heading_para_color:rgb(64 58 85);
         }
     }
 }
+
 
 .row {
 
@@ -170,13 +173,13 @@ $heading_para_color:rgb(64 58 85);
         }
 
         h1 {
-            color:rgb(190 133 73 / 63%);
+            color:rgba(174, 234, 105, 0.63);
             font-size: 4rem;
-            font-family: "Poppins", sans-serif;
+            // font-family: "Poppins", sans-serif;
         }
 
         h2 {
-            color: $primary_color;
+            color: #302065d1;
             font-size: 1.7rem; 
             span{
                 color: #d6550a;
@@ -211,7 +214,7 @@ $des_heading_color:#5b72a0;
     .first_section_para{
          padding: 0.2rem 0rem 0rem 1rem;
          h2{
-            color: $des_heading_color;
+            color: $heading_color;
             font-weight: 600;
          }
          p{
@@ -268,7 +271,7 @@ $des_heading_color:#5b72a0;
         p{
             display: inline-block;  
             &:not(:last-child) {
-                font-size: 1rem;
+                font-size: 1.4rem;
                 margin-right: 1.1rem;
                 text-decoration: line-through;
                 text-transform: uppercase;
@@ -281,7 +284,11 @@ $des_heading_color:#5b72a0;
                 padding: 0.2rem 0.9rem;
                 border-radius: 1.2rem;
                 text-transform: uppercase;
-            }                
+            } 
+            .color_price{
+                color: $primary_color;
+                font-weight: 600;
+            }               
         }
     }
     $btn_pric_color:#099f7c;
@@ -299,7 +306,7 @@ $des_heading_color:#5b72a0;
        a{
          text-decoration: none;
          background-color: $add_cart_color;
-         border-radius: 1rem;
+         border-radius: 0.5rem;
          display: block;
          padding: 0.8rem 0rem ;
          font-size: 1.2rem;
