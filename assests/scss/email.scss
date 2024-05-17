@@ -152,7 +152,7 @@ $add_cart_color:#faa200;
     padding: 1.5rem 1rem;
     font-size: 2rem;
     font-weight: 600;
-    color: #25155b;
+    color: #25155bbf;
 }
 
 .first_section {
@@ -173,16 +173,16 @@ $add_cart_color:#faa200;
         }
 
         h1 {
-            color:rgba(174, 234, 105, 0.63);
+            color:rgba(255, 126, 5, 0.37);
             font-size: 4rem;
             // font-family: "Poppins", sans-serif;
         }
 
         h2 {
-            color: #302065d1;
+            color: rgb(47 78 126 / 80%);
             font-size: 1.7rem; 
             span{
-                color: #d6550a;
+                color: #1616168b;
                 font-weight: 700;
             }
         }
@@ -198,8 +198,8 @@ $add_cart_color:#faa200;
     }
     h4{
         text-align: center;
-        font-size: 2.5rem;
-        font-weight: 700;
+        font-size: 2.3rem;
+        font-weight: 600;
         color:$heading_color;
     }
 }
@@ -461,8 +461,8 @@ $btn_pric_color:#099f7c;
         
         h2{
             color: $heading_color;
-            font-weight: 700;
-            font-size: 2.7rem;
+            font-weight: 600;
+            font-size: 2.3rem;
         }
         p{
             text-align: center;

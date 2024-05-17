@@ -110,7 +110,7 @@ body {
   padding: 1.5rem 1rem;
   font-size: 2rem;
   font-weight: 600;
-  color: #25155b;
+  color: rgba(37, 21, 91, 0.7490196078);
 }
 
 .first_section {
@@ -130,15 +130,15 @@ body {
   transition: all 0.2s ease-in;
 }
 .first_section .card_box h1 {
-  color: rgba(174, 234, 105, 0.63);
+  color: rgba(255, 126, 5, 0.37);
   font-size: 4rem;
 }
 .first_section .card_box h2 {
-  color: rgba(48, 32, 101, 0.8196078431);
+  color: rgba(47, 78, 126, 0.8);
   font-size: 1.7rem;
 }
 .first_section .card_box h2 span {
-  color: #d6550a;
+  color: rgba(22, 22, 22, 0.5450980392);
   font-weight: 700;
 }
 
@@ -152,8 +152,8 @@ body {
 }
 .price_head h4 {
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.3rem;
+  font-weight: 600;
   color: rgb(140, 140, 140);
 }
 
@@ -342,8 +342,8 @@ body {
 }
 .offer_section_bg .main_box h2 {
   color: rgb(140, 140, 140);
-  font-weight: 700;
-  font-size: 2.7rem;
+  font-weight: 600;
+  font-size: 2.3rem;
 }
 .offer_section_bg .main_box p {
   text-align: center;
