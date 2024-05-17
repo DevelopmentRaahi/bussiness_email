@@ -39,7 +39,7 @@ body {
 
 $heading_color:rgb(140 140 140);
 $primary_color: #0064ab;
-$heading_para_color:rgb(37, 21, 91);
+$heading_para_color:rgb(64 58 85);
 
 
 .background_random {
@@ -71,7 +71,7 @@ $heading_para_color:rgb(37, 21, 91);
 
         h2 {
             font-size: 3.7rem;
-            color: $primary_color;
+            color:#403a55;
             font-weight: 700;
             span{
                 color: #d6550a;
@@ -344,7 +344,7 @@ $des_heading_color:#5b72a0;
     }
     ul{
         p{
-            font-size: 1.2rem;
+            font-size: 1.4rem;
         }
     }
  }
@@ -396,6 +396,11 @@ $des_heading_color:#5b72a0;
             }
         }
 
+    }
+}
+@media (max-width: 600px) {
+    .footertext {
+        font-size: 1.2rem;
     }
 }
 @media only screen and (max-width: 878px) {

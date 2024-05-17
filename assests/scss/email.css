@@ -51,7 +51,7 @@ body {
 }
 .row-design_gap h2 {
   font-size: 3.7rem;
-  color: #0064ab;
+  color: #403a55;
   font-weight: 700;
 }
 .row-design_gap h2 span {
@@ -149,7 +149,7 @@ body {
 .price_head p {
   font-size: 1.5rem;
   text-align: center;
-  color: rgb(37, 21, 91);
+  color: rgb(64, 58, 85);
 }
 .price_head h4 {
   text-align: center;
@@ -196,7 +196,7 @@ body {
   transition: all 0.3s linear;
 }
 .price_box h2 {
-  color: rgb(37, 21, 91);
+  color: rgb(64, 58, 85);
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
 }
@@ -268,7 +268,7 @@ body {
   font-size: 1.1rem;
 }
 #footer_link_size ul p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -298,6 +298,11 @@ body {
   }
   #footer_heading ul p {
     font-size: 1.8rem;
+  }
+}
+@media (max-width: 600px) {
+  .footertext {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 878px) {
@@ -339,7 +344,7 @@ body {
 }
 .offer_section_bg .main_box p {
   text-align: center;
-  color: rgb(37, 21, 91);
+  color: rgb(64, 58, 85);
 }
 .offer_section_bg .main_box > * {
   margin-top: 2.5rem;
@@ -376,7 +381,7 @@ body {
 .price_end p {
   font-size: 1.4rem;
   text-align: center;
-  color: rgb(37, 21, 91) !important;
+  color: rgb(64, 58, 85) !important;
   padding-bottom: 2rem;
 }
 .price_end h4 {
