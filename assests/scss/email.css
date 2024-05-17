@@ -97,7 +97,7 @@ body {
 }
 
 .title_heading h4 {
-  color: rgb(255, 123, 0);
+  color: rgb(47, 78, 126);
   font-size: 1.5rem;
 }
 .title_heading .box_heading {
@@ -154,7 +154,7 @@ body {
   text-align: center;
   font-size: 2.3rem;
   font-weight: 600;
-  color: rgb(255, 123, 0);
+  color: rgb(47, 78, 126);
 }
 
 .desc_section_bg {
@@ -164,7 +164,7 @@ body {
   padding: 0.2rem 0rem 0rem 1rem;
 }
 .desc_section_bg .first_section_para h2 {
-  color: rgb(255, 123, 0);
+  color: rgb(47, 78, 126);
   font-weight: 600;
 }
 .desc_section_bg .first_section_para p {
@@ -341,7 +341,7 @@ body {
   text-align: center;
 }
 .offer_section_bg .main_box h2 {
-  color: rgb(255, 123, 0);
+  color: rgb(47, 78, 126);
   font-weight: 600;
   font-size: 2.3rem;
 }
@@ -391,7 +391,7 @@ body {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  color: rgb(255, 123, 0);
+  color: rgb(47, 78, 126);
 }
 .price_end > * {
   margin-top: 1.3rem;
