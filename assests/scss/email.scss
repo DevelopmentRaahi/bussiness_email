@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+
 *,
 *::after,
 *::before {
@@ -276,13 +280,16 @@ $des_heading_color:#5b72a0;
         }
     
     .inline_item{
+        
         p{
-            display: inline-block;  
+             display: inline-block;  
             &:not(:last-child) {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 margin-right: 1.1rem;
-                text-decoration: line-through;
+               
                 text-transform: uppercase;
+                font-family: "Acme", sans-serif;
+                font-weight: 600;
             }   
             &:last-child{
                 font-size: 1.2rem;
@@ -294,8 +301,12 @@ $des_heading_color:#5b72a0;
                 text-transform: uppercase;
             } 
             .color_price{
-                color: $primary_color;
+                color: $one_two_three_color;
                 font-weight: 600;
+                font-family: "Acme", sans-serif;
+                margin:0 0.2rem;
+                font-size: 1.4rem;
+                text-decoration: line-through;
             }               
         }
     }
