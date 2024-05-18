@@ -261,6 +261,9 @@ body {
 .price_box .btn_desc {
   margin-top: 2rem;
 }
+.price_box .item_center h2 {
+  text-transform: uppercase;
+}
 .price_box .item_center * {
   text-align: center;
 }

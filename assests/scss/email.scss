@@ -337,8 +337,13 @@ $des_heading_color:#5b72a0;
     .btn_desc{
         margin-top: 2rem;
     }
+    .item_center{
+        h2{
+            text-transform: uppercase;
+        }
+    }
 
-    .item_center  *{
+    .item_center *{
        text-align: center;
     }
     transition:all 0.3s linear;
