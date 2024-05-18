@@ -43,6 +43,7 @@ $heading_para_color:rgb(64 58 85);
 $btn_pric_color:#099f7c;
 $add_cart_color:#faa200;
 $heading_top_color:rgb(102 102 102);
+$one_two_three_color :rgb(255 89 18);
 
 
 .background_random {
@@ -175,7 +176,7 @@ $heading_top_color:rgb(102 102 102);
         }
 
         h1 {
-            color:#ff4c0085;
+            color:$one_two_three_color;
             font-size: 4rem;
             // font-family: "Poppins", sans-serif;
         }
