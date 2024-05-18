@@ -97,7 +97,7 @@ body {
 }
 
 .title_heading h4 {
-  color: rgb(47, 78, 126);
+  color: rgb(102, 102, 102);
   font-size: 1.5rem;
 }
 .title_heading .box_heading {
@@ -130,7 +130,7 @@ body {
   transition: all 0.2s ease-in;
 }
 .first_section .card_box h1 {
-  color: #fc5a15;
+  color: rgba(255, 76, 0, 0.5215686275);
   font-size: 4rem;
 }
 .first_section .card_box h2 {

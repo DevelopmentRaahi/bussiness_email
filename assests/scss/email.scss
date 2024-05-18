@@ -42,19 +42,18 @@ $primary_color: #0064ab;
 $heading_para_color:rgb(64 58 85);
 $btn_pric_color:#099f7c;
 $add_cart_color:#faa200;
-$heading_top_color:rgb(102 102 102)
+$heading_top_color:rgb(102 102 102);
 
 
 .background_random {
     //  background-color: rgba(147, 168, 157, 0.597) !important;
-
     // background: linear-gradient(to right top, rgba(19, 41, 153, 0.246), rgba(19, 33, 88, 0.2));
     // background-size: cover;
     // background-position: right center;
     padding: 0;
     margin: 0;
 }
-#navbg {
+#navbg{
     a {
         font-size: 1.2rem;
         margin-left: 1rem;
@@ -134,6 +133,8 @@ $heading_top_color:rgb(102 102 102)
 
     }
 }
+
+
 .title_heading{
     h4{
         color:$heading_top_color;
@@ -369,6 +370,7 @@ $des_heading_color:#5b72a0;
             font-size: 1.1rem !important;
         }
     }
+   
 
 
 }
