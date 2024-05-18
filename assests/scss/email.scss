@@ -146,7 +146,11 @@ $one_two_three_color :rgb(255 89 18);
         padding: 0;
     }
 }
-
+.typing2{
+    font-size: 2rem;
+    color: $one_two_three_color;
+    font-weight: 700;
+}
 
 // first section
 
@@ -219,11 +223,12 @@ $des_heading_color:#5b72a0;
          h2{
             color: $heading_color;
             font-weight: 600;
+          padding: 0.5rem 0rem;
          }
          p{
             padding: 0rem 0rem 0rem 0.5rem;
             text-align: left;
-            line-height: 2.1rem;
+            line-height: 2.5rem;
          }
     }
     .row_center{
